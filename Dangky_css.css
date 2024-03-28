@@ -1,0 +1,42 @@
+table{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+th, td {
+    width: 300px;
+    padding: 10px; 
+    /* border: 2px solid black;  */
+}
+input[type="text"],[type="password"]{
+    width: 100%; 
+    box-sizing: border-box; 
+    padding: 10px;
+    border-radius: 10px; 
+    border: 1px solid #ccc;
+}
+input[type = "button"] {
+    box-sizing: border-box; 
+    padding: 10px; 
+    border-radius: 10px; 
+    border: 1px solid #ccc;
+}
+.one{
+    top: 200px;
+    background: white;
+}
+body{
+    background: aqua;
+}
