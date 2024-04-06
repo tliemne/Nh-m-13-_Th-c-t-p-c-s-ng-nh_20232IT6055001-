@@ -35,15 +35,14 @@ header .logo ion-icon {
 }
 
 .login{
-            width: 200px;
-            height: 40px;
-            background: #61DBFB;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-right: 38px;
-            margin-top: 12px;
+    width: 150px;
+    height: 40px;
+    background: #61DBFB;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 38px;
+    margin-top: 12px;
 }
 .wrap_cha{
     display: flex;
@@ -98,7 +97,7 @@ header .logo ion-icon {
     display: flex;
 }
 .search input{
-    width: 300px;
+    width: 600px;
     height: 43px;
     padding: 7px 30px 7px 5px;
     border:solid 1px #93bdd7;
