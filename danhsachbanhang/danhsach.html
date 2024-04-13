@@ -45,6 +45,9 @@
         ul.products li .product-top .product-thumb{
             display: block;
         }
+        ul.products li:hover .product-top .product-thumb img{
+            filter: opacity(80%);
+        }
         ul.products li .product-top .product-thumb img{
             display: block;
         }
@@ -58,8 +61,10 @@
             color: white;
             position: absolute;
             width: 100%;
-            bottom: -36px;
-            transition: 0.25s ease-in-out;
+            bottom: -100px;
+            transition: 0.75s ease-in-out;
+            opacity: 0.85;
+            border-radius: 10px;
         }
         ul.products li:hover a.buy-now{
             bottom: 0px;
