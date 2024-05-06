@@ -8,32 +8,20 @@
     <script src="Dang_nhap.js"></script>
 </head>
 <body>
-    <table class="one">
-        <tr><td>
-
-            <h1>Đăng nhập</h1>
-            <table >
-                <tr>
-                    <td><input type="text" name="" id="ten" placeholder="Tên đăng nhập"></td>
-                    
-                </tr>
-                <!-- <tr>
-                    <td><span id = "two"></span></td>
-                </tr> -->
-                <tr>
-                    <td><input type="password" name="" id="mk" placeholder="Mật khẩu"></td>
-                    
-                </tr>
-                <tr>
-                    <td>
-                        <a href=""><input type="button" value="Đăng nhập" onclick="kiemtra()" ></a>
-                        <a href="Dang_ky.html"><input type="button" value="Đăng ký" ></a>
-                    </td>
-                </tr>
-            </table> 
-
-        </td></tr>
-        <p id="two"></p>
-    </table>
+    <div class="signup">
+        <h1 class="signup-heading">Đăng nhập</h1>
+        <form action="#" class="signup-form" autocomplete="off" >
+            <label for="username" class="signup-label">Tên đăng nhập</label>
+            <input type="text" id="username" class="signup-input" required>
+            <label for="password" class="signup-label">Mật khẩu</label>
+            <input id="password" class="signup-input" type="password" required>
+            <button type="submit" class="signup-submit">Đăng nhập</button>
+        </form>
+        <p class="signup-already">
+            <span>Bạn chưa có tài khoản ?</span>
+            <a href="Dang_ky.html" class="signup-login-link">Đăng kí</a>
+        </p>
+    
+      </div>
 </body>
 </html>

@@ -1,15 +1,13 @@
-function kiemtra(){
-    var ten = document.getElementById("ten").value;
-    var mk = document.getElementById("mk").value;
-    var two = "Không được bỏ trống"
-    
-    if(ten === "" || mk === ""){
+function validateForm() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    var errorMessage = document.getElementById("error-message");
 
-        // alert("Không được bỏ trống.")
-        document.getElementById("two").innerHTML = two;
+    if (username.trim() === "" || password.trim() === "") {
+        errorMessage.textContent = "Vui lòng điền vào tất cả các ô input.";
+        return false; // Ngăn chặn form được gửi đi
+    } else {
+        errorMessage.textContent = ""; // Xóa thông báo lỗi nếu có
+        return true; // Cho phép form được gửi đi
     }
-    else{
-        alert("Đăng nhập thành công.")
-    }
-    
 }
